@@ -10,7 +10,17 @@
 
   .home-container {
     position: relative;
-    z-index: 1;
-    color: #fff; /* Ensure text is visible on the background */
+    /* z-index: 1; */
+    color: #fff; 
     padding: 20px;
   }
+
+
+  .content{
+     position: relative;
+      /* z-index: 2; */
+  text-align: center;
+  padding: 10px;
+  }
+
+ 
