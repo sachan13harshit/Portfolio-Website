@@ -3,16 +3,9 @@ import ParticleBackground from '../components/ParticleBackground';
 import '../styles/Home.css';
 import profile from '../utils/profile.png';
 import Type from '../components/Type';
+import { AiFillGithub} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 function Home() {
-  const imageStyle = {
-    objectFit: "shrink",
-    width: ["13rem", "13rem", "8rem"],
-    height: ["13rem", "13rem", "15rem"],
-    marginTop: ["5rem", "5rem", null],
-    marginBottom: ["1rem", "1rem", null],
-    backgroundColor: "blue", // Replace with your theme color variable
-    borderRadius: "30rem",
-  };
   return (
     <div className="home-container">
     <ParticleBackground />
@@ -37,6 +30,35 @@ function Home() {
               I am a <strong className="type"> <Type /></strong>
             </h1>
            </div>
+          </div>
+          <div className="home-about-social">
+            <h1>FIND ME ON</h1>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a id="github"
+                  href="https://github.com/sachan13harshit"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+             
+              <li className="social-icons">
+                <a id="linkedin"
+                  href="https://www.linkedin.com/in/sachanharshit/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
     </div>
