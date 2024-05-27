@@ -5,6 +5,7 @@ import profile from '../utils/profile.png';
 import Type from '../components/Type';
 import { AiFillGithub} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+
 function Home() {
   return (
     <div className="home-container">
