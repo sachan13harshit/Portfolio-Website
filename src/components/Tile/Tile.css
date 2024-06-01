@@ -1,0 +1,23 @@
+.tile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.tile.img-right{
+    flex-direction: row-reverse;
+}
+.position{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-im{
+    position: relative;
+    /* width: 60vw; */
+    height: 60vh;
+    padding-left: 2rem;
+}

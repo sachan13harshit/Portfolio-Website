@@ -11,7 +11,7 @@ function Home() {
     <div className="home-container">
     <ParticleBackground />
     <div className="content">
-        <div className="row">
+        <div className="r2">
           <div className="home-image">
            <img className="profile-image" src={profile} alt="profile" />
           </div>

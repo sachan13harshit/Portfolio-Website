@@ -7,6 +7,7 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   return (

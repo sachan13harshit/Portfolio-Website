@@ -1,16 +1,17 @@
-nav{
+nav.navbar{
     position: fixed;
     top: 0%;
     left: 0%;
+    height: 8vh;
     width: 100%;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1b2430;
     padding: 20px 80px;
     box-shadow: 0 5px 15pxrgba(0, 0, 0, 0.06);
     z-index: 2;
+    /* background-color: red; */
 }
 .hs{
     color: #fff;
@@ -26,21 +27,18 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 #navbar li {
     list-style: none;
     padding: 0 20px;
     position: relative;
 }
-
 #navbar li a {
     text-decoration: none;
     color: #fff;
     font-size: 1.3rem;
     font-weight: 600;
     transition: all 0.3s ease-in-out;
-   
 }
 #navbar li a:hover,
 #navbar li a.active {
