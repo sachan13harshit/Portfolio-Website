@@ -37,3 +37,34 @@
   }
 }
 
+/* Define scrollbar track color */
+:root {
+  --scrollbar-track-color: #7500FA; /* Change this to your desired track color */
+}
+
+/* Define scrollbar thumb color */
+:root {
+  --scrollbar-thumb-color: #7500FA; /* Change this to your desired thumb color */
+}
+
+/* Apply styles to scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color);
+}
+
+/* Handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-color);
+  border-radius: 4px
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: purple; /* Change this to your desired hover color */
+}
+
