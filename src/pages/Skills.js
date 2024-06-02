@@ -1,7 +1,11 @@
 import React from 'react';
+import ParticleBackground from '../components/ParticleBackground';
 
 function Skills() {
-  return <div>Skills Page</div>;
+  return <div>
+    <ParticleBackground />
+   
+  </div>;
 }
 
 export default Skills;

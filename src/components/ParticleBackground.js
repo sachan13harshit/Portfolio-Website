@@ -20,7 +20,7 @@ const ParticleBackground = () => {
     () => ({
         background: {
           color: {
-            value: "#000000",
+            value: "#02153E",
           },
         },
         fpsLimit: 120,
