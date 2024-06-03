@@ -1,0 +1,22 @@
+.radio-card {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 0.25rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    position: relative; 
+    z-index: 1; 
+    color: white;
+  }
+  
+  .radio-card:hover{
+    border-color:  #87209e;;
+    color:  #87209e;;
+  }
+  
+  .radio-card.selected {
+    border-color: #87209e;
+    color:  #87209e;;
+  }
