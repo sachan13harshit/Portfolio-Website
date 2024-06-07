@@ -4,6 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import './Contact.css';
 import ParticleBackground from '../ParticleBackground/ParticleBackground';
+import { AiFillGithub, AiOutlineLinkedin } from "react-icons/ai";
+import { SiLeetcode, SiCodeforces, SiCodechef } from "react-icons/si";
 
 const Contact = () => {
     const form = useRef();
@@ -56,13 +58,69 @@ const Contact = () => {
                     Thanks for contacting me.
                 </div>
             )}
-            <Row className="justify-content-center text-center">
-                <Col md={12} className="c-left">
-                    <h1 className="animate-left">Get in Touch</h1>
-                    <h1 className="yellow animate-left">Contact me</h1>
-                </Col>
-            </Row>
             <Row className="justify-content-center">
+                <Col md={6} className="c-left">
+                    <h1 className="yellow animate-left">Contact me</h1>
+                
+                    <p>Feel free to <span className="purple">connect</span> with me</p>
+                    <ul className="home-about-social-links">
+                        <li className="social-icons">
+                            <a id="github"
+                                href="https://github.com/sachan13harshit"
+                                target="_blank"
+                                style={{ color: "black" }}
+                                rel="noreferrer"
+                                className="icon-colour home-social-icons"
+                            >
+                                <AiFillGithub />
+                            </a>
+                        </li>
+                        <li className="social-icons">
+                            <a id="linkedin"
+                                href="https://www.linkedin.com/in/sachanharshit/"
+                                target="_blank"
+                                style={{ color: "#0762C8" }}
+                                rel="noreferrer"
+                                className="icon-colour home-social-icons"
+                            >
+                                <AiOutlineLinkedin />
+                            </a>
+                        </li>
+                        <li className="social-icons">
+                            <a id="leetcode"
+                                href="https://leetcode.com/sachanharshit/"
+                                style={{ color: "black" }}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="icon-colour home-social-icons"
+                            >
+                                <SiLeetcode />
+                            </a>
+                        </li>
+                        <li className="social-icons">
+                            <a id="codeforces"
+                                href="https://codeforces.com/profile/harshitsachan"
+                                style={{ color: "black" }}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="icon-colour home-social-icons"
+                            >
+                                <SiCodeforces />
+                            </a>
+                        </li>
+                        <li className="social-icons">
+                            <a id="codechef"
+                                style={{ color: "black" }}
+                                href="https://www.codechef.com/users/harshitsachan"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="icon-colour home-social-icons"
+                            >
+                                <SiCodechef />
+                            </a>
+                        </li>
+                    </ul>
+                </Col>
                 <Col md={6} className="c-right animate-left">
                     <form ref={form} onSubmit={sendEmail}>
                         <input type="text" name="from_name" className="user" placeholder="Name" onChange={handleChange} />
@@ -78,10 +136,3 @@ const Contact = () => {
 }
 
 export default Contact;
-
-// /*
-//  <h1>FIND ME ON</h1>
-//             <p>
-//               Feel free to <span className="purple">connect </span>with me
-//             </p>
-//             /*

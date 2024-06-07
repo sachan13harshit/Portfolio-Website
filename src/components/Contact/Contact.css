@@ -2,16 +2,20 @@
     padding-top: 10rem;
     height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
+    color: white;
+}
+
+.justify-content-center {
+    width: 100vw;
 }
 
 .c-left {
-    text-align: center !important;
-    padding-bottom: 2rem;
-    color: white !important;
+    text-align: left;
+    padding-right: 2rem;
+    color: white;
 }
 
 .c-right {
@@ -22,22 +26,26 @@
     position: relative;
     flex-direction: column;
 }
-form{
-    width : 50vw
+
+form {
+    width: 100%;
+    max-width: 500px;
 }
+p{
+    text-align: center;
+}
+
 .c-right > form {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
-    width: 18vw;
-    max-width: 1000px;
+    width: 100%;
 }
 
 .c-right .user {
-    width: 100%; 
-    max-width: 800px; 
-    height: 4rem; 
+    width: 100%;
+    height: 4rem;
     padding: 0.5em;
     outline: none;
     border: 2px solid #7c914e;
@@ -47,18 +55,13 @@ form{
     background-color: var(--yellow);
 }
 
-.user{
-    width: 18vw;
-}
-
 .c-right .user:hover {
     box-shadow: 0 0 9px #a4ab58;
 }
 
 textarea {
     width: 100%;
-    max-width: 800px;
-    height: 10rem !important; 
+    height: 10rem !important;
     padding: 0.5em;
     font-size: 20px;
     background-color: var(--yellow);
@@ -76,7 +79,7 @@ textarea {
 
 .notification {
     position: fixed;
-    top: 4rem; 
+    top: 4rem;
     left: 50%;
     transform: translateX(-50%);
     width: 16vw;
@@ -90,12 +93,14 @@ textarea {
 
 .animate-left {
     animation: slideInLeft 1s ease-out;
+    text-align: center;
+    margin-top: 3rem;
 }
+
 button.button.btn-primary {
-    width: 52%; 
-    max-width: 800px;
-    height: 4rem; 
-    font-size: 20px; 
+    width: 100%;
+    height: 4rem;
+    font-size: 20px;
     background-color: #007bff;
     border-color: #007bff;
     color: white;
@@ -110,13 +115,13 @@ button.button.btn-primary {
     color: white;
     box-shadow: 0 0 9px #0056b3;
 }
+
 button.button.btn-primary.btn:hover {
     color: white;
-    background-color: #0056b3; 
-    border-color: #28a745;;
+    background-color: #0056b3;
+    border-color: #28a745;
     box-shadow: 0 0 9px #0056b3;
 }
-
 
 @keyframes slideInLeft {
     from {
@@ -129,11 +134,24 @@ button.button.btn-primary.btn:hover {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .contact-container {
+        flex-direction: column;
         padding-top: 2rem;
+        align-items: center;
     }
-    .c-right .user {
+
+    .c-left {
+        padding-right: 0;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .c-right {
         width: 100%;
     }
+}
+
+.home-about-social-links{
+    padding-left: 5rem;
 }
