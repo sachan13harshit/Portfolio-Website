@@ -46,14 +46,14 @@
 
   .project-card{
     box-shadow: 0 4px 5px 3px rgb(72, 0, 155) !important;
-  color: white !important;
-  background-color: transparent !important;
-  opacity: 0.9 !important;
-  transition: all 0.5s ease 0s !important;
-  height: 100% !important;
-  margin-top: 3rem;
-  margin-right: 3rem;
-  margin-bottom : 3rem;
+    color: white !important;
+    background-color: transparent !important;
+    opacity: 0.9 !important;
+    transition: all 0.5s ease 0s !important;
+    height: 100% !important;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-bottom : 3rem;
   }
   
   .project-card:hover .project-hover {
