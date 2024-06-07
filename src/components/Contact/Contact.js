@@ -63,7 +63,7 @@ const Contact = () => {
                     <h1 className="yellow animate-left">Contact me</h1>
                 
                     <p>Feel free to <span className="purple">connect</span> with me</p>
-                    <ul className="home-about-social-links">
+                    <ul className="hsal">
                         <li className="social-icons">
                             <a id="github"
                                 href="https://github.com/sachan13harshit"
