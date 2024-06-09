@@ -46,7 +46,7 @@ nav.navbar{
 #navbar li a:hover::after ,
 #navbar li a.active::after {
     content: '';
-    width: 30%;
+    width: 70%;
     height: 2px;
     background-color: #17cf97;
     position: absolute;
