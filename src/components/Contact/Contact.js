@@ -62,9 +62,9 @@ const Contact = () => {
                 <Col md={6} className="c-left">
                     <h1 className="yellow animate-left">Contact me</h1>
                 
-                    <p>Feel free to <span className="purple">connect</span> with me</p>
+                    <p className="yellow animate-left">Feel free to <span className="purple yellow animate-left">connect</span> with me</p>
                     <ul className="hsal">
-                        <li className="social-icons">
+                        <li className="social-icons yellow animate-left">
                             <a id="github"
                                 href="https://github.com/sachan13harshit"
                                 target="_blank"
@@ -75,7 +75,7 @@ const Contact = () => {
                                 <AiFillGithub />
                             </a>
                         </li>
-                        <li className="social-icons">
+                        <li className="social-icons yellow animate-left">
                             <a id="linkedin"
                                 href="https://www.linkedin.com/in/sachanharshit/"
                                 target="_blank"
@@ -86,7 +86,7 @@ const Contact = () => {
                                 <AiOutlineLinkedin />
                             </a>
                         </li>
-                        <li className="social-icons">
+                        <li className="social-icons yellow animate-left">
                             <a id="leetcode"
                                 href="https://leetcode.com/sachanharshit/"
                                 style={{ color: "black" }}
@@ -97,7 +97,7 @@ const Contact = () => {
                                 <SiLeetcode />
                             </a>
                         </li>
-                        <li className="social-icons">
+                        <li className="social-icons yellow animate-left">
                             <a id="codeforces"
                                 href="https://codeforces.com/profile/harshitsachan"
                                 style={{ color: "black" }}
@@ -108,7 +108,7 @@ const Contact = () => {
                                 <SiCodeforces />
                             </a>
                         </li>
-                        <li className="social-icons">
+                        <li className="social-icons yellow animate-left">
                             <a id="codechef"
                                 style={{ color: "black" }}
                                 href="https://www.codechef.com/users/harshitsachan"

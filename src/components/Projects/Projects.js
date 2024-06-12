@@ -14,7 +14,7 @@ const Projects = () => {
 
   const filteredData = selectedOption === "ALL" ? projectsData : projectsData.filter((data) => data.type === selectedOption);
 
-  const options = ["ALL", "Frontend" , "Backend"];
+  const options = ["ALL"];
 
   return (
     <>
