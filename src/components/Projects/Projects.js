@@ -10,6 +10,7 @@ const Projects = () => {
   
   const handleOptionChange = (value) => {
     setSelectedOption(value);
+    setSelectedOption(value);
   };
 
   const filteredData = selectedOption === "ALL" ? projectsData : projectsData.filter((data) => data.type === selectedOption);
