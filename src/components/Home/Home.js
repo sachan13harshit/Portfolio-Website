@@ -73,7 +73,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a id="codeforces"
-                  href="https://codeforces.com/profile/harshitsachan"
+                  href="https://codeforces.com/profile/SachannHarshit"
                   style={{ color: "black" }}
                   target="_blank"
                   rel="noreferrer"
